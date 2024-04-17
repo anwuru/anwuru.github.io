@@ -1,20 +1,19 @@
-# Anwar Configuration
-## Docs: https://Anwar.io/docs/configuration.html
-## Source: https://github.com/Anwarjs/Anwar/
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Anwar的部落格😶‍🌫️
-subtitle: '无趣的'
-description: '带小孩的'
-keywords: "Teacher,Blog,个人博客,博客,分享,记录"
-author: Anwuru
-email: Anwuru@qq.com
-language: cn
+title: Hexo
+subtitle: ''
+description: ''
+keywords:
+author: John Doe
+language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://anwuru.github.io/
+url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -44,15 +43,14 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+syntax_highlighter: highlight.js
 highlight:
-  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -76,7 +74,7 @@ tag_map:
 meta_generator: true
 
 # Date / Time format
-## Anwar uses Moment.js to parse and display date
+## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
@@ -96,32 +94,11 @@ exclude:
 ignore:
 
 # Extensions
-## Plugins: https://Anwar.io/plugins/
-## Themes: https://Anwar.io/themes/
-theme: yilia
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: landscape
 
 # Deployment
-## Docs: https://Anwar.io/docs/one-command-deployment
+## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: https://github.com/anwuru/anwuru.github.io.git
-  branch: main
-
-jsonContent:
-    meta: false
-    pages: false
-    posts:
-      title: true
-      date: true
-      path: true
-      text: false
-      raw: false
-      content: false
-      slug: false
-      updated: false
-      comments: false
-      link: false
-      permalink: false
-      excerpt: false
-      categories: false
-      tags: true
+  type: ''
