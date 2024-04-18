@@ -1,4 +1,4 @@
-新网站的源代码
+新网站的源代码（原名：MyWebSource2）
 
 身在配置好`.github/workflows/ithub-actions-demo.yml`文件后可以通过GitHub Actions生成网页
 
